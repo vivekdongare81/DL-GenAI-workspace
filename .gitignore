@@ -1,0 +1,18 @@
+# environment
+.venv/
+.env
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+
+# data, model weights and run logs (too big for git)
+data/
+models/
+checkpoints/
+*.pt
+*.pth
+*.safetensors
+*.gguf
+*.bin
+mlruns/
+wandb/

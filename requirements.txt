@@ -1,0 +1,7 @@
+# Python 3.12
+torch
+numpy
+pandas
+matplotlib
+scikit-learn
+ipykernel
