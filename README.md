@@ -12,7 +12,7 @@ Each notebook starts with a contents list and ends with the trade-offs and inter
 | Folder | Topics |
 |---|---|
 | 01-neural-networks | neurons, activations, loss functions, backpropagation, initialization, training from scratch in NumPy |
-| 02-pytorch-basics | tensors, autograd, `nn.Module`, Dataset and DataLoader, the training loop, GPU / MPS, saving and loading checkpoints, turning a notebook into a training script (config, logging, command-line arguments) |
+| 02-pytorch-basics | from NumPy arrays to tensors (NumPy and pandas are in the ML repo's `00-numpy-and-pandas`), tensors, autograd, `nn.Module`, Dataset and DataLoader, the training loop, GPU / MPS, saving and loading checkpoints, turning a notebook into a training script (config, logging, command-line arguments) |
 | 03-training-deep-networks | optimizers (SGD, momentum, Adam, AdamW), learning-rate schedules and warm-up, batch and layer norm, dropout, weight decay, early stopping, residual connections, gradient clipping, mixed precision, gradient accumulation, experiment tracking (MLflow, Weights & Biases), multi-GPU training (DDP, FSDP) overview, debugging a training run |
 | 04-cnn-and-transfer-learning | convolutions, pooling, a small CNN, transfer learning (short) |
 | 05-sequence-models | RNN, LSTM, GRU, vanishing gradients through time, why attention replaced them (short) |
