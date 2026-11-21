@@ -6,6 +6,7 @@ pandas
 matplotlib
 scikit-learn
 ipykernel
+ipywidgets
 
 # training scripts, configs and tests
 pydantic
