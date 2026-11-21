@@ -1,0 +1,15 @@
+# Settings for one training run. Paths are relative to this folder; run the script from here.
+data_dir: ../../data/fashion-mnist
+out_dir: checkpoints
+seed: 0
+device: auto          # auto, cpu, cuda or mps
+
+epochs: 15
+batch_size: 128
+lr: 0.001
+hidden: [256, 128]
+dropout: 0.2
+
+val_size: 6000
+patience: 3           # early stopping: epochs without a better validation accuracy
+num_workers: 2

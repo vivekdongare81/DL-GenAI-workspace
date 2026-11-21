@@ -1,0 +1,12 @@
+# Tool settings for this folder: lint and format with ruff, tests with pytest.
+[tool.ruff]
+line-length = 140
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "SIM", "UP"]
+
+[tool.ruff.lint.isort]
+known-first-party = ["data", "model", "train"]
+
+[tool.pytest.ini_options]
+addopts = "-q"
